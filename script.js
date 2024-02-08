@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML ="<h1>Will You Be My Life Partner Shreya?</h1>";
+  question.innerHTML ="<h1>Will You Be My Life Partner?</h1>";
   gif.src =
     "propose.gif";
 });
