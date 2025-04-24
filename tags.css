@@ -1,0 +1,185 @@
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+}
+
+header, nav, main, section, footer {
+padding: 1rem;
+}
+
+header {
+background: #333;
+color: #fff;
+}
+
+header h1 {
+margin: 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+margin-right: 1rem;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+main {
+margin: 1rem auto;
+max-width: 1000px;
+}
+
+section {
+margin-bottom: 2rem;
+}
+
+h1, h2 {
+color: #333;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+font-size: 1.5rem;
+margin-top: 0;
+}
+
+p {
+margin: 0 0 1rem;
+}
+
+ul, ol {
+margin: 0 0 1rem 1.5rem;
+}
+
+ol {
+list-style-type: decimal;
+}
+
+ul {
+list-style-type: disc;
+}
+
+img {
+display: block;
+margin: 0 auto 1rem;
+max-width: 100%;
+}
+
+audio, video {
+display: block;
+margin: 0 auto 1rem;
+}
+
+figure {
+margin: 0;
+}
+
+figcaption {
+text-align: center;
+font-style: italic;
+}
+
+address {
+font-style: italic;
+}
+
+a {
+color: #1a73e8;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+b, strong {
+font-weight: bold;
+}
+
+i, em {
+font-style: italic;
+}
+
+mark {
+background-color: #ff0;
+}
+
+small {
+font-size: 0.875rem;
+}
+
+del {
+text-decoration: line-through;
+}
+
+ins {
+text-decoration: underline;
+}
+
+sub {
+font-size: 0.75rem;
+vertical-align: sub;
+}
+
+sup {
+font-size: 0.75rem;
+vertical-align: super;
+}
+
+fieldset {
+border: 1px solid #ccc;
+padding: 1rem;
+margin-bottom: 1rem;
+}
+
+legend {
+font-weight: bold;
+}
+
+label {
+display:flex;
+margin: 0 0 0.5rem;
+}
+
+input[type="text"], input[type="email"], input[type="date"], textarea, select {
+width: 100%;
+padding: 0.5rem;
+margin: 0 0 1rem;
+}
+
+input[type="submit"], input[type="reset"] {
+padding: 0.5rem 1rem;
+margin: 0 0.5rem;
+background-color: #1a73e8;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+background-color: #0c59d1;
+}
+
+input[type="file"] {
+margin-bottom: 1rem;
+}
+
+textarea {
+resize: vertical;
+}

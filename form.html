@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="tags.css"> -->
+    <title>Registration form</title>
+</head>
+<body>
+    <section id="section3">
+        <h2>Form tags</h2>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                <label for="nationality">Nationality:</label>
+                <select id="nationality" name="nationality">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option  value="india" selected>India</option>
+                    <option value="australia">Australia</option>
+                </select><br><br>
+                <label for="bio">Short Biography:</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume"><br><br>
+                <label for="newsletter">Subscribe to newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter"><br><br>
+            </fieldset>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+    
+</body>
+</html>
